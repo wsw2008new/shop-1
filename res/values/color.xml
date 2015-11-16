@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_title">#0088EE</color>
+    <color name="btn_pass">#ff0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="orange">#f89636</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#3399CC</color>
+    <color name="green">#A5CD4E</color>
+    <color name="bg_gray">#ffeeeeee</color>
+    <color name="gray">#9D9EAA</color>
+    <color name="black">#000000</color>
+    <color name="red">#E20C0C</color>
+    <color name="hui">#55555555</color>
+    <color name="mail_search_tab_bottom">#0d70bc</color>
+
+    <drawable name="list_divider_color">#ffbebebe</drawable>
+
+    <color name="lv_item_background">#ffe6e6e6</color>
+    <color name="item_line2_text_color">#999999</color>
+    <color name="register">#ff522a</color>
+    <color name="line_title">#bababa</color>
+    <color name="line">#ededed</color>
+    <color name="text_color">#9a9a9a</color>
+    <color name="bg">#f6f6f6</color>
+    <color name="edit_hint_txt">#ffbebebe</color>
+    <color name="pay_color1">#00AA90</color>
+    <color name="pay_color2">#009882</color>
+    <color name="title_color">#ffa6a6a6</color>
+    <color name="light_red">#FFBDC5</color>
+    <color name="list_item">#ffe0e0</color>
+    <color name="light_gray">#F1F1F1</color>
+    <color name="view_bg">#ffeeeeee</color>
+    <color name="edit_bg">#ff585858</color>
+    <color name="menu_bg">#E24417</color>
+    <color name="body_text_1">#ff000000</color>
+    <color name="body_text_2">#99000000</color>
+    <color name="body_text_disabled">#66000000</color>
+    <color name="body_text_1_inverse">#ffffffff</color>
+    <color name="body_text_2_inverse">#99ffffff</color>
+    <color name="accent_1">#ff29549f</color>
+    <color name="hyperlink">#ffff549f</color>
+    <color name="background_1">#ffffffff</color>
+    <color name="whats_on_separator">#4d000000</color>
+    <color name="all_track_color">#ff222222</color>
+    <color name="block_column_1">#ff0fabff</color>
+    <color name="block_column_2">#ffdf1831</color>
+    <color name="block_column_3">#ff009939</color>
+
+</resources>

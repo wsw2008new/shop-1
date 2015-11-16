@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">神州牧易</string>
+    <string name="msg_load_ing">努力加载中</string>
+    <string name="cd">图片描述</string>
+    <string name="def_title">标题名称</string>
+    <string name="pig_sell">生猪出售</string>
+    <string name="pig_buy">生猪收购</string>
+    <string name="my_sell">我的出售</string>
+    <string name="my_buy">我的收购</string>
+    <string name="my_sell_order">出售订单</string>
+    <string name="my_buy_order">收购订单</string>
+    <string name="xlistview_header_hint_normal">下拉刷新所有</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="login_tx">登\t\t录</string>
+    <string name="title_value_tx">标\t\t题：</string>
+    <string name="maose_tv">毛\t\t色：</string>
+    <string name="trading_value_tx">价\t\t格：</string>
+    <string name="chulan_shijian">出栏时间：</string>
+    <string name="pigtype_tx">生猪品种：</string>
+    <string name="count_tx">数\t\t量：</string>
+    <string name="shengshi_tx">省\t\t市：</string>
+    <string name="pinzhong_tx">品\t\t种：</string>
+    <string name="address_tx">地\t\t址：</string>
+    <string name="remark_tx">备\t\t注：</string>
+    <string name="weight_tx">估\t\t重：</string>
+    <string name="profit_tx">利\t\t润：</string>
+    <string name="submit_tx">提\t\t交</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_user_info">UserInfoActivity</string>
+    <string name="confirm">确 定</string>
+    <string name="hint_tx">请选择</string>
+    <string name="qq">Ｑ　　Ｑ</string>
+    <string name="spin_prompt"> 请选择角色 </string>
+
+    <string-array name="roles">
+        <item> 猪场 </item>
+        <item> 屠宰场 </item>
+        <item> 经纪人 </item>
+        <item> 物流公司 </item>
+    </string-array>
+    <!-- 自定义组件 -->
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">松开可以刷新</string>
+    <string name="lastUpdateTime">最近更新：%s</string>
+    <string name="load_full">已加载全部</string>
+    <string name="no_data">暂无数据</string>
+    <string name="more">加载中</string>
+    <string name="d">图片描述</string>
+    <string name="again_exit">再按一次退出</string>
+    <string name="title_activity_product_info">ProductInfoActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my_order">MyOrderActivity</string>
+    <string name="title_activity_search_product">SearchProductActivity</string>
+
+</resources>

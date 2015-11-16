@@ -1,0 +1,86 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    
+    android:background="@color/menu_bg">
+
+	<!--tab上方的显示区域 -->
+	<FrameLayout
+		android:id="@+id/realtabcontent"
+		android:background="@color/bg"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_above="@+id/radioGroup1">
+
+	</FrameLayout>
+
+	<!--底下的四个tab -->
+	<RadioGroup
+		android:id="@+id/radioGroup1"
+		android:layout_width="match_parent"
+		android:layout_height="56dp"
+		android:orientation="horizontal"
+		android:layout_alignParentBottom="true"
+		android:background="#5E5E5E"
+		android:gravity="center_vertical">
+
+		<RadioButton
+			android:id="@+id/radio0"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:button="@null"
+			android:gravity="center"
+			android:text="首页"
+			android:checked="true"
+			android:textColor="@drawable/text_selector"
+			android:textSize="12sp"
+			android:background="@color/transparent"
+			android:drawableTop="@drawable/selector_navigation_home" />
+
+		<RadioButton
+			android:id="@+id/radio1"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:button="@null"
+			android:gravity="center"
+			android:text="我的发布"
+			android:textColor="@drawable/text_selector"
+			android:textSize="12sp"
+			android:background="@color/transparent"
+			android:drawableTop="@drawable/selector_navigation_home" 
+			android:visibility="gone"/>
+
+		<RadioButton
+			android:id="@+id/radio2"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:button="@null"
+			android:gravity="center"
+			android:text="在线商城"
+			android:textSize="12sp"
+			android:background="@color/transparent"
+			android:textColor="@drawable/text_selector"
+			android:drawableTop="@drawable/selector_navigation_home" 
+			android:visibility="gone"/>
+
+		<RadioButton
+			android:id="@+id/radio3"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:button="@null"
+			android:gravity="center"
+			android:text="我的"
+			android:background="@color/transparent"
+			android:textColor="@drawable/text_selector"
+			android:textSize="12sp"
+			android:drawableTop="@drawable/selector_navigation_my" />
+	</RadioGroup>
+</RelativeLayout>

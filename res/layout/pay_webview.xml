@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    
+    android:background="@color/pay_color2">
+    
+
+   <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/pay_color2" >
+
+    <ImageButton
+        android:id="@+id/def_head_back"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/def_selector"
+        android:contentDescription="@string/cd"
+        android:onClick="back"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_action_back" />
+
+    <TextView
+        android:id="@+id/def_head_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/def_title"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+  
+
+  
+</RelativeLayout>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0" />
+
+</LinearLayout>
